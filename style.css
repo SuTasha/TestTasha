@@ -4,18 +4,51 @@
 	padding: 30px 20px;
 }
 
+/*ячейки надписей с иконками ставлю в ряд*/
 .main-notes{
 	display: flex;
 	list-style: none;
 	justify-content: center;
 }
 
+/*формирование ячейки надписей с иконками*/
 .main-block{
 	content: 200px;
 	color: #ffffff;
 	font-size: 14px;
 	width: 200px;
 	padding: 100px 20px;
+}
+
+/*белый квадрат*/
+.main-info{
+	width: 401px;
+	height: 394px;
+	justify-content: center;
+	background: #ffffff;	
+}
+
+.main-line{
+	display: flex;
+	justify-content: center;
+	width: 500;	
+}
+
+.h3{
+	color: #fd634e;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.h2{
+	color: #a2ca28;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+.p{
+	color: #656e74;
+	font-size: 14px;
 }
 
 .background-image {
@@ -60,3 +93,11 @@
 	color: #ffffff;
 	text-decoration: none;
 }
+
+.mein-link{
+	color: #a2ca28;
+	text-decoration: none;
+	font-size: 14px
+}
+
+
