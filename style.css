@@ -16,16 +16,17 @@
 	content: 200px;
 	color: #ffffff;
 	font-size: 14px;
-	width: 200px;
+	width: 250px;
 	padding: 100px 20px;
 }
 
 /*белый квадрат*/
 .main-info{
-	width: 401px;
-	height: 394px;
-	justify-content: center;
-	background: #ffffff;	
+	width: 321px;
+	height: 314px;
+	background: #ffffff;
+	text-align: center;	
+	padding: 40px 40px;
 }
 
 .main-line{
