@@ -1,0 +1,48 @@
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 20px;
+}
+
+.background-image {
+	background-image: url('images/background.jpg');
+	height: 900px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.menu{
+	display: flex;
+	width: 500px;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.menu-item{
+	color: #ffffff;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.title{
+	color: #ffffff;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 500px 0 0 30px;
+}
+
+.subtitle{
+	color: #ffffff;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin: 5px 0 0 30px;
+}
+
+.main-page{
+	background: #a2ca28;
+}
+
+.menu-link{
+	color: #ffffff;
+	text-decoration: none;
+}
