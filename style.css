@@ -4,6 +4,20 @@
 	padding: 30px 20px;
 }
 
+.main-notes{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+
+.main-block{
+	content: 200px;
+	color: #ffffff;
+	font-size: 14px;
+	width: 200px;
+	padding: 100px 20px;
+}
+
 .background-image {
 	background-image: url('images/background.jpg');
 	height: 900px;
