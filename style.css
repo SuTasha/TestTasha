@@ -3,6 +3,29 @@
 	font-family: AvenirNext;
 }
 
+@font-face{
+	src: url('./fonts/ProximaNova-Reg.otf');
+	font-family: ProximaNova;
+}
+
+@font-face{
+	src: url('./fonts/OpenSans-Regular.ttf');
+	font-family: OpenSans;
+	font-weight: 400;
+}
+
+@font-face{
+	src: url('./OpenSans-Bold.ttf');
+	font-family: OpenSans;
+	font-weight: 700;
+}
+
+@font-face{
+	src: url('./OpenSans-Light.ttf');
+	font-family: OpenSans;
+	font-weight: 100;
+}
+
 .header{
 	display: flex;
 	justify-content: space-between;
@@ -23,6 +46,10 @@
 	font-size: 14px;
 	width: 250px;
 	padding: 100px 20px;
+}
+
+.benefits_text{
+	font-family: ProximaNova;
 }
 
 /*белый квадрат*/
@@ -50,6 +77,8 @@
 	color: #a2ca28;
 	font-size: 35px;
 	text-transform: uppercase;
+	font-family: OpenSans, sans-serif;
+	font-weight: 100;
 }
 
 .p{
@@ -90,6 +119,8 @@
 	font-size: 15px;
 	text-transform: uppercase;
 	margin: 5px 0 0 30px;
+	font-family: OpenSans;
+	font-weight: 700;
 }
 
 .main-page{
