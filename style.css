@@ -1,3 +1,4 @@
+
 @font-face{
 	src: url('./fonts/AvenirNextCyr-Regular.ttf');
 	font-family: AvenirNext;
@@ -31,6 +32,7 @@
 	font-family: Montserrat;
 }
 
+
 .header{
 	display: flex;
 	justify-content: space-between;
@@ -42,11 +44,14 @@
 	display: flex;
 	list-style: none;
 	justify-content: center;
+
 	widows: 1180px;             /*почему ширина этого блока на принимает этот размер?*/
+
 }
 
 /*формирование ячейки надписей с иконками*/
 .main-block{
+
 	justify-content: space-between;
 	content: 150px;               /*почему ячейка не принимает этот размер?*/
 	color: #ffffff;
@@ -56,15 +61,18 @@
 
 .benefits_text{
 	font-family: ProximaNova;
+
 }
 
 /*белый квадрат*/
 .main-info{
 	width: 321px;
+
 	height: 274px;
 	background: #ffffff;
 	text-align: center;	
 	padding: 60px 40px;
+
 }
 
 .main-line{
@@ -119,6 +127,7 @@ position: relative;
 	font-size: 35px;
 	font-family: OpenSans, sans-serif;
 	text-transform: uppercase;
+
 }
 
 .h3{
@@ -131,8 +140,10 @@ position: relative;
 	color: #a2ca28;
 	font-size: 35px;
 	text-transform: uppercase;
+
 	font-family: OpenSans, sans-serif;
 	font-weight: 100;
+
 }
 
 .p{
@@ -153,6 +164,7 @@ position: relative;
 	list-style: none;
 	justify-content: space-between;
 	font-family: AvenirNext, sans-serif;
+
 }
 
 .menu-item{
@@ -175,6 +187,7 @@ position: relative;
 	margin: 5px 0 0 30px;
 	font-family: OpenSans;
 	font-weight: 700;
+
 }
 
 .main-page{
