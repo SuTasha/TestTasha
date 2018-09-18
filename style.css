@@ -32,7 +32,6 @@
 	font-family: Montserrat;
 }
 
-<<<<<<< HEAD
 @font-face{
 	src: url('./MyriadPro-Regular.otf');
 	font-family: MyriadPro-Regular;
@@ -49,16 +48,15 @@
 	display: flex;
 	width: 1270px; 
 	list-style: none;
-	content: ''; 
 	margin: 0 auto;       
 }
 
 /*формирование ячейки надписей с иконками*/
-.main-block{
-	content: '';              
+.main-block{             
 	color: #ffffff;
 	font-size: 14px;
 	padding: 70px 25px;
+	font-family: ProximaNova;
 }
 
 .benefits_text{
@@ -68,12 +66,15 @@
 
 .border{
 	padding: 10px 20px;
+	color: #ffffff;
+	font-size: 24px;
+	font-family: OpenSans;
+	font-weight: 400;
 }
 
 /*белый квадрат*/
 .main-info{
 	width: 321px;
-
 	height: 274px;
 	background: #ffffff;
 	text-align: center;	
@@ -174,6 +175,7 @@ position: relative;
 	color: #ffffff;
 	font-size: 13px;
 	text-transform: uppercase;
+	font-family: MyriadPro-Regular;
 }
 
 .title{
@@ -191,7 +193,6 @@ position: relative;
 	margin: 5px 0 0 30px;
 	font-family: OpenSans;
 	font-weight: 700;
-	font-family: AvenirNext;
 }
 
 .main-page{
@@ -211,12 +212,6 @@ position: relative;
 	font-size: 14px;
 	font-family: OpenSans;
 }
-/*Очень сложная конструкция ( margin: 80px auto 40px auto; у .form-input тоже).
- Стоит убрать их и вместо этого поставить у .foot-line:
-/*оттягиваю три кнопки*/
-.form-input{
-	margin: 80px auto 40px auto;
-} 
 
 .foot-color{
 	background: #050505;	
@@ -224,8 +219,9 @@ position: relative;
 
 .foot-line{
 	display: flex;
-	margin: 0 auto;
-	width: 1180px;
+	justify-content: space-between;
+	width: 1000px;
+	padding: 80px 220px 30px 220px
 }
 
 .input{
@@ -235,7 +231,8 @@ position: relative;
 	color: gray;
 	font-family: ProximaNova;
 }
-	.button{
+
+.button{
 	background: #a2ca28;
 	font-size: 16px;
 	padding: 10px 15px;
@@ -247,7 +244,6 @@ position: relative;
 .social{
 	display: flex;
 	justify-content: space-between;
-	margin: 80px auto 40px auto;
 	width: 220px;
 }
 
@@ -288,3 +284,4 @@ position: relative;
 	top: 15px;
 	left: 18px;
 }
+
