@@ -15,20 +15,25 @@
 }
 
 @font-face{
-	src: url('./OpenSans-Bold.ttf');
+	src: url('./fonts/OpenSans-Bold.ttf');
 	font-family: OpenSans;
 	font-weight: 700;
 }
 
 @font-face{
-	src: url('./OpenSans-Light.ttf');
+	src: url('./fonts/OpenSans-Light.ttf');
 	font-family: OpenSans;
 	font-weight: 100;
 }
 
 @font-face{
-	src: url('./Montserrat-Regular.ttf');
+	src: url('./fonts/Montserrat-Regular.ttf');
 	font-family: Montserrat;
+}
+
+@font-face{
+	src: url('./MyriadPro-Regular.otf');
+	font-family: MyriadPro-Regular;
 }
 
 .header{
@@ -40,15 +45,15 @@
 /*ячейки надписей с иконками ставлю в ряд*/
 .main-notes{
 	display: flex;
+	width: 1270px; 
 	list-style: none;
-	justify-content: center;
-	widows: 1180px;             /*почему ширина этого блока на принимает этот размер?*/
+	content: ''; 
+	margin: 0 auto;       
 }
 
 /*формирование ячейки надписей с иконками*/
 .main-block{
-	justify-content: space-between;
-	content: 150px;               /*почему ячейка не принимает этот размер?*/
+	content: '';              
 	color: #ffffff;
 	font-size: 14px;
 	padding: 70px 25px;
@@ -56,6 +61,11 @@
 
 .benefits_text{
 	font-family: ProximaNova;
+	padding: 20px 20px;
+}
+
+.border{
+	padding: 10px 20px;
 }
 
 /*белый квадрат*/
@@ -70,7 +80,7 @@
 .main-line{
 	display: flex;
 	justify-content: center;	
-	widows: 1180px;
+	width: 1180px;
 	margin: 0 auto;
 }
 
@@ -101,30 +111,22 @@ position: relative;
 }
 
 .text-i{
-	position: absolute;
-    left: 100;                  /* почему элементы не сдвигаются, а остаются по центру всей страницы? */
-	top: 100;
+	position: relative;
+	left: 15px;
+	top: -250px;
 }
 
-.text-img1{
-	text-align: center;
-	color: #fd634e; /*орагжевый*/
-	font-size: 14px;
-	font-family: Montserrat; sans-serif;
-	text-transform: uppercase;
-}
-
-.text-img2{
-	color: #a2ca28; /*зелёный*/
-	font-size: 35px;
-	font-family: OpenSans, sans-serif;
-	text-transform: uppercase;
-}
+/*	.mod7-img2{
+	position: relative;
+} */
 
 .h3{
 	color: #fd634e;
 	font-size: 14px;
 	text-transform: uppercase;
+	font-family: Montserrat; sans-serif;
+	padding: 10px;
+	text-align: center;
 }
 
 .h2{
@@ -133,11 +135,16 @@ position: relative;
 	text-transform: uppercase;
 	font-family: OpenSans, sans-serif;
 	font-weight: 100;
+	padding: 10px;
+	text-align: center;
 }
 
 .p{
 	color: #656e74;
 	font-size: 14px;
+	font-family: OpenSans;
+	font-weight: 400;
+	padding: 10px;
 }
 
 .background-image {
@@ -166,6 +173,7 @@ position: relative;
 	font-size: 40px;
 	text-transform: uppercase;
 	margin: 500px 0 0 30px;
+	font-family: AvenirNext;
 }
 
 .subtitle{
@@ -175,6 +183,7 @@ position: relative;
 	margin: 5px 0 0 30px;
 	font-family: OpenSans;
 	font-weight: 700;
+	font-family: AvenirNext;
 }
 
 .main-page{
@@ -184,12 +193,32 @@ position: relative;
 .menu-link{
 	color: #ffffff;
 	text-decoration: none;
+	font-family: MyriadPro-Regular;
+	padding: 20px 20px;
 }
 
 .mein-link{
 	color: #a2ca28;
 	text-decoration: none;
-	font-size: 14px
+	font-size: 14px;
+	font-family: OpenSans;
+}
+/*Очень сложная конструкция ( margin: 80px auto 40px auto; у .form-input тоже).
+ Стоит убрать их и вместо этого поставить у .foot-line:
+
+/*оттягиваю три кнопки*/
+.form-input{
+	margin: 80px auto 40px auto;
+} 
+
+.foot-color{
+	background: #050505;	
+}
+
+.foot-line{
+	display: flex;
+	margin: 0 auto;
+	width: 1180px;
 }
 
 .input{
@@ -197,25 +226,14 @@ position: relative;
 	font-size: 16px;
 	padding: 10px 15px;
 	color: gray;
+	font-family: ProximaNova;
 }
-
-.button{
-	background: yellow;
+	.button{
+	background: #a2ca28;
 	font-size: 16px;
 	padding: 10px 15px;
 	color: gray;
-}
-
-/*оттягиваю три кнопки*/
-.form-input{
-	margin: 80px auto 40px auto;
-} 
-
-/*задаю фон футеру*/
-.foot-line{
-	display: flex;
-	background: #050505;
-	justify-content: center;
+	font-family: ProximaNova;
 }
 
 /*ставлю в ряд соцсети c промежутком*/
