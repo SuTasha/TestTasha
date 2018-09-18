@@ -37,8 +37,6 @@
 	src: url('./MyriadPro-Regular.otf');
 	font-family: MyriadPro-Regular;
 }
-=======
->>>>>>> aa5d39a13273c0923192bf9a7d55c588eecce1b6
 
 .header{
 	display: flex;
@@ -51,26 +49,13 @@
 	display: flex;
 	width: 1270px; 
 	list-style: none;
-<<<<<<< HEAD
 	content: ''; 
 	margin: 0 auto;       
-=======
-	justify-content: center;
-
-	widows: 1180px;             /*почему ширина этого блока на принимает этот размер?*/
-
->>>>>>> aa5d39a13273c0923192bf9a7d55c588eecce1b6
 }
 
 /*формирование ячейки надписей с иконками*/
 .main-block{
-<<<<<<< HEAD
 	content: '';              
-=======
-
-	justify-content: space-between;
-	content: 150px;               /*почему ячейка не принимает этот размер?*/
->>>>>>> aa5d39a13273c0923192bf9a7d55c588eecce1b6
 	color: #ffffff;
 	font-size: 14px;
 	padding: 70px 25px;
@@ -78,15 +63,11 @@
 
 .benefits_text{
 	font-family: ProximaNova;
-<<<<<<< HEAD
 	padding: 20px 20px;
 }
 
 .border{
 	padding: 10px 20px;
-=======
-
->>>>>>> aa5d39a13273c0923192bf9a7d55c588eecce1b6
 }
 
 /*белый квадрат*/
@@ -139,19 +120,13 @@ position: relative;
 	top: -250px;
 }
 
-<<<<<<< HEAD
-/*	.mod7-img2{
-	position: relative;
-} */
-=======
 .text-img2{
 	color: #a2ca28; /*зелёный*/
 	font-size: 35px;
 	font-family: OpenSans, sans-serif;
 	text-transform: uppercase;
-
 }
->>>>>>> aa5d39a13273c0923192bf9a7d55c588eecce1b6
+
 
 .h3{
 	color: #fd634e;
@@ -166,15 +141,10 @@ position: relative;
 	color: #a2ca28;
 	font-size: 35px;
 	text-transform: uppercase;
-
 	font-family: OpenSans, sans-serif;
 	font-weight: 100;
-<<<<<<< HEAD
 	padding: 10px;
 	text-align: center;
-=======
-
->>>>>>> aa5d39a13273c0923192bf9a7d55c588eecce1b6
 }
 
 .p{
@@ -198,7 +168,6 @@ position: relative;
 	list-style: none;
 	justify-content: space-between;
 	font-family: AvenirNext, sans-serif;
-
 }
 
 .menu-item{
@@ -222,11 +191,7 @@ position: relative;
 	margin: 5px 0 0 30px;
 	font-family: OpenSans;
 	font-weight: 700;
-<<<<<<< HEAD
 	font-family: AvenirNext;
-=======
-
->>>>>>> aa5d39a13273c0923192bf9a7d55c588eecce1b6
 }
 
 .main-page{
@@ -248,7 +213,6 @@ position: relative;
 }
 /*Очень сложная конструкция ( margin: 80px auto 40px auto; у .form-input тоже).
  Стоит убрать их и вместо этого поставить у .foot-line:
-
 /*оттягиваю три кнопки*/
 .form-input{
 	margin: 80px auto 40px auto;
@@ -324,12 +288,3 @@ position: relative;
 	top: 15px;
 	left: 18px;
 }
-
-/*.social-one:before{
-	content: '';
-	display: block;
-	position: relative;
-	left: 5px;
-	top: 5px;
-}*/
-    
