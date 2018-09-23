@@ -46,7 +46,7 @@
 /*ячейки надписей с иконками ставлю в ряд*/
 .main-notes{
 	display: flex;
-	width: 1270px; 
+	width: 1230px; 
 	list-style: none;
 	margin: 0 auto;       
 }
@@ -55,17 +55,19 @@
 .main-block{             
 	color: #ffffff;
 	font-size: 14px;
+	width: 320px; 
 	padding: 70px 25px;
 	font-family: ProximaNova;
 }
 
 .benefits_text{
+	font-size: 14px;
 	font-family: ProximaNova;
-	padding: 20px 20px;
+	padding: 20px 0;
 }
 
 .border{
-	padding: 10px 20px;
+	padding: 10px 0;
 	color: #ffffff;
 	font-size: 24px;
 	font-family: OpenSans;
@@ -79,7 +81,6 @@
 	background: #ffffff;
 	text-align: center;	
 	padding: 60px 45px;
-
 }
 
 .main-line{
@@ -192,8 +193,9 @@ position: relative;
 .menu-link{
 	color: #ffffff;
 	text-decoration: none;
-	font-family: MyriadPro-Regular;
-	padding: 20px 20px;
+	font-size: 14px;
+	font-family: ProximaNova;
+	padding: 20px 0;
 
 }
 
