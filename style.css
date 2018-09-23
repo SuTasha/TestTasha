@@ -1,3 +1,41 @@
+@font-face{
+	src: url('./fonts/AvenirNextCyr-Regular.ttf');
+	font-family: AvenirNext;
+}
+
+@font-face{
+	src: url('./fonts/ProximaNova-Reg.otf');
+	font-family: ProximaNova;
+}
+
+@font-face{
+	src: url('./fonts/OpenSans-Regular.ttf');
+	font-family: OpenSans;
+	font-weight: 400;
+}
+
+@font-face{
+	src: url('./fonts/OpenSans-Bold.ttf');
+	font-family: OpenSans;
+	font-weight: 700;
+}
+
+@font-face{
+	src: url('./fonts/OpenSans-Light.ttf');
+	font-family: OpenSans;
+	font-weight: 100;
+}
+
+@font-face{
+	src: url('./fonts/Montserrat-Regular.ttf');
+	font-family: Montserrat;
+}
+
+@font-face{
+	src: url('./MyriadPro-Regular.otf');
+	font-family: MyriadPro-Regular;
+}
+
 .header{
 	display: flex;
 	justify-content: space-between;
@@ -7,49 +45,102 @@
 /*ячейки надписей с иконками ставлю в ряд*/
 .main-notes{
 	display: flex;
+	width: 1230px; 
 	list-style: none;
-	justify-content: center;
+	margin: 0 auto;       
 }
 
 /*формирование ячейки надписей с иконками*/
-.main-block{
-	content: 200px;
+.main-block{             
 	color: #ffffff;
 	font-size: 14px;
-	width: 250px;
-	padding: 100px 20px;
+	width: 320px; 
+	padding: 70px 25px;
+	font-family: ProximaNova;
+}
+
+.benefits_text{
+	font-size: 14px;
+	font-family: ProximaNova;
+	padding: 20px 0;
+}
+
+.border{
+	padding: 10px 0;
+	color: #ffffff;
+	font-size: 24px;
+	font-family: OpenSans;
+	font-weight: 400;
 }
 
 /*белый квадрат*/
 .main-info{
 	width: 321px;
-	height: 314px;
+	height: 274px;
 	background: #ffffff;
 	text-align: center;	
-	padding: 40px 40px;
+	padding: 40px 45px;
 }
 
 .main-line{
 	display: flex;
-	justify-content: center;
-	width: 500;	
+	justify-content: center;	
+	width: 1180px;
+	height: 394px;
+	margin: 0 auto;
 }
+
+.img1{
+position: relative;
+}
+
+.img1:hover{
+	content: '';
+	display: block;
+	background: rgba(0, 0, 0, 50%);
+	width: 794px;
+	height: 394px;
+	position: absolute;
+}
+
+.text-i{
+	position: relative;
+	left: 15px;
+	top: -250px;
+}
+
+.text-img2{
+	color: #a2ca28; /*зелёный*/
+	font-size: 35px;
+	font-family: OpenSans, sans-serif;
+	text-transform: uppercase;
+}
+
 
 .h3{
 	color: #fd634e;
 	font-size: 14px;
 	text-transform: uppercase;
+	font-family: Montserrat, sans-serif;
+	text-align: center;
 }
 
 .h2{
 	color: #a2ca28;
 	font-size: 35px;
 	text-transform: uppercase;
+	font-family: OpenSans, sans-serif;
+	font-weight: 100;
+	text-align: center;
 }
 
 .p{
 	color: #656e74;
 	font-size: 14px;
+	font-family: OpenSans;
+	font-weight: 400;
+	padding: 10px 0px;
+	line-height: 2;
 }
 
 .background-image {
@@ -64,26 +155,32 @@
 	width: 500px;
 	list-style: none;
 	justify-content: space-between;
+	font-family: AvenirNext, sans-serif;
 }
 
 .menu-item{
 	color: #ffffff;
 	font-size: 13px;
 	text-transform: uppercase;
+	font-family: MyriadPro-Regular;
 }
 
 .title{
 	color: #ffffff;
 	font-size: 40px;
 	text-transform: uppercase;
-	margin: 500px 0 0 30px;
+	margin: 600px 0 0 130px;
+	font-family: AvenirNext;
 }
 
 .subtitle{
 	color: #ffffff;
 	font-size: 15px;
 	text-transform: uppercase;
-	margin: 5px 0 0 30px;
+	margin: 5px 0 0 300px;
+	font-family: OpenSans;
+	font-weight: 700;
+	letter-spacing: 0.2em;
 }
 
 .main-page{
@@ -93,12 +190,96 @@
 .menu-link{
 	color: #ffffff;
 	text-decoration: none;
+	font-size: 14px;
+	font-family: ProximaNova;
+	padding: 20px 0;
+
 }
 
 .mein-link{
 	color: #a2ca28;
-	text-decoration: none;
-	font-size: 14px
+
+	font-size: 14px;
+	font-family: OpenSans;
 }
 
+.foot-color{
+	background: #0d1119;	
+}
 
+.foot-line{
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+	padding: 80px 220px 30px 220px
+}
+
+.input{
+	border: 1px solid gray;
+	font-size: 14px;
+	padding: 10px 15px;
+	color: #83969f;
+	font-family: ProximaNova;
+}
+
+.input-name{
+	border: 1px solid gray;
+	font-size: 14px;
+	padding: 10px 15px;
+	width: 200px;
+	color: #83969f;
+	font-family: ProximaNova;
+}
+
+.button{
+	background: #a2ca28;
+	font-size: 15px;
+	padding: 12px 15px;
+	color: #ffffff;
+	font-family: ProximaNova;
+}
+
+/*ставлю в ряд соцсети c промежутком*/
+.social{
+	display: flex;
+	justify-content: space-between;
+	width: 220px;
+}
+
+.social-y{
+	position: relative;
+    width: 50px;
+    height: 50px;
+    background: #ed3123;
+    border-radius: 50px;
+}
+
+.social-f{
+	position: relative;
+    width: 50px;
+    height: 50px;
+    background: #2e3192;
+    border-radius: 50px;
+}
+
+.social-t{
+	position: relative;
+    width: 50px;
+    height: 50px;
+    background: #00aeef;
+    border-radius: 50px;
+}
+
+.social-i{                  
+	position: relative;
+    width: 50px;
+    height: 50px;
+    background: #171a8f;
+    border-radius: 50px;
+}
+
+.social-inside{
+	position: absolute;
+	top: 15px;
+	left: 18px;
+}
