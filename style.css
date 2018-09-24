@@ -76,10 +76,10 @@
 /*белый квадрат*/
 .main-info{
 	width: 321px;
-	height: 274px;
+	height: 354px;
 	background: #ffffff;
 	text-align: center;	
-	padding: 40px 45px;
+	padding: 20px 45px;
 }
 
 .main-line{
@@ -92,15 +92,28 @@
 
 .img1{
 position: relative;
+display: block;
 }
 
-.img1:hover{
+.img1:before{
 	content: '';
-	display: block;
 	background: rgba(0, 0, 0, 50%);
 	width: 794px;
 	height: 394px;
 	position: absolute;
+	display: none;
+}
+
+.img1:hover:before{ 
+	display: block;
+}
+
+.img1:hover .h2-hover {
+	display: block;
+}
+
+.img1:hover .h3-hover {
+	display: block;
 }
 
 .text-i{
@@ -116,6 +129,25 @@ position: relative;
 	text-transform: uppercase;
 }
 
+
+.h3-hover{
+	color: #fd634e;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+	display: none;
+}
+
+.h2-hover{
+	color: #a2ca28;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-family: OpenSans, sans-serif;
+	font-weight: 100;
+	text-align: center;
+	display: none;
+}
 
 .h3{
 	color: #fd634e;
@@ -165,6 +197,10 @@ position: relative;
 	font-family: MyriadPro-Regular;
 }
 
+.menu-item:hover{
+animation: readm 2s;
+}
+
 .title{
 	color: #ffffff;
 	font-size: 40px;
@@ -193,14 +229,39 @@ position: relative;
 	font-size: 14px;
 	font-family: ProximaNova;
 	padding: 20px 0;
+}
 
+.menu-link:hover{
+	animation: infinite explore 0.5s;
+}
+
+@keyframes explore{
+	0% {
+		color: #fd634e;
+	}
+	100% {
+		color: #fd634e;
+	}
 }
 
 .mein-link{
 	color: #a2ca28;
-
 	font-size: 14px;
 	font-family: OpenSans;
+}
+
+.mein-link:hover {
+animation: readm 2s;
+display: block;
+	}
+
+@keyframes readm{
+	0% {
+		transform: scale(1);
+	}
+	90% {
+		transform: scale(1.5);
+	}
 }
 
 .foot-color{
@@ -234,9 +295,25 @@ position: relative;
 .button{
 	background: #a2ca28;
 	font-size: 15px;
-	padding: 12px 15px;
+	padding: 10px 23px;
 	color: #ffffff;
 	font-family: ProximaNova;
+}
+
+.button:hover {
+	animation: infinite animationButton 0.2s; 
+}
+
+@keyframes animationButton{
+	0% {
+		transform: rotateZ(0deg);
+	}
+	50% {
+		transform: rotateZ(2deg);
+	}
+	100% {
+		transform: rotateZ(-2deg);
+	}
 }
 
 /*ставлю в ряд соцсети c промежутком*/
@@ -244,6 +321,7 @@ position: relative;
 	display: flex;
 	justify-content: space-between;
 	width: 220px;
+	list-style: none;
 }
 
 .social-y{
