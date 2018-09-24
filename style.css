@@ -101,19 +101,20 @@ display: block;
 	width: 794px;
 	height: 394px;
 	position: absolute;
-	display: none;
+	opacity: 0;
+	transition: all 2s;
 }
 
 .img1:hover:before{ 
-	display: block;
+	opacity: 1;
 }
 
 .img1:hover .h2-hover {
-	display: block;
+	opacity: 1;
 }
 
 .img1:hover .h3-hover {
-	display: block;
+	opacity: 1;
 }
 
 .text-i{
@@ -136,7 +137,8 @@ display: block;
 	text-transform: uppercase;
 	font-family: Montserrat, sans-serif;
 	text-align: center;
-	display: none;
+	opacity: 0;
+	transition: all 2s;
 }
 
 .h2-hover{
@@ -146,7 +148,8 @@ display: block;
 	font-family: OpenSans, sans-serif;
 	font-weight: 100;
 	text-align: center;
-	display: none;
+	opacity: 0;
+	transition: all 2s;
 }
 
 .h3{
