@@ -1,3 +1,4 @@
+
 @font-face{
 	src: url('./fonts/AvenirNextCyr-Regular.ttf');
 	font-family: AvenirNext;
@@ -151,6 +152,33 @@ display: block;
 	opacity: 0;
 	transition: all 2s;
 }
+
+.img1{
+position: relative;
+}
+
+.img1:before{
+	content: '';
+	display: block;
+	background: rgba(0, 0, 0, 50%);
+	width: 794px;
+	height: 394px;
+	position: absolute;
+}
+
+.text-i{
+	position: relative;
+	left: 15px;
+	top: -250px;
+}
+
+.text-img2{
+	color: #a2ca28; /*зелёный*/
+	font-size: 35px;
+	font-family: OpenSans, sans-serif;
+	text-transform: uppercase;
+}
+
 
 .h3{
 	color: #fd634e;
