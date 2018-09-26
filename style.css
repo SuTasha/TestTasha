@@ -39,38 +39,40 @@
 .header{
 	display: flex;
 	justify-content: space-between;
-	padding: 30px 20px;
+	padding: 43px 63px;
 }
 
 /*ячейки надписей с иконками ставлю в ряд*/
 .main-notes{
 	display: flex;
-	width: 1230px; 
+	width: 1200px; 
 	list-style: none;
 	margin: 0 auto;       
 }
 
 /*формирование ячейки надписей с иконками*/
 .main-block{             
-	color: #ffffff;
-	font-size: 14px;
 	width: 320px; 
-	padding: 70px 25px;
-	font-family: ProximaNova;
+	padding: 70px 9px 120px;
 }
 
 .benefits_text{
+	color: #ffffff;
 	font-size: 14px;
+	line-height: 23px;
 	font-family: ProximaNova;
-	padding: 20px 0;
+	padding: 4px 6px 4px 0px;
 }
 
 .border{
-	padding: 10px 0;
+	padding: 38px 4px 0px;
 	color: #ffffff;
 	font-size: 24px;
 	font-family: OpenSans;
-	font-weight: 400;
+}
+
+.cont-for-border{
+	height: 36px;
 }
 
 /*белый квадрат*/
@@ -79,7 +81,7 @@
 	height: 354px;
 	background: #ffffff;
 	text-align: center;	
-	padding: 20px 45px;
+	padding: 40px 45px 0px;
 }
 
 .main-line{
@@ -87,7 +89,7 @@
 	justify-content: center;	
 	width: 1180px;
 	height: 394px;
-	margin: 0 auto;
+	margin: 0px 222px 0px;
 }
 
 .img1{
@@ -174,7 +176,6 @@ display: block;
 	font-size: 14px;
 	font-family: OpenSans;
 	font-weight: 400;
-	padding: 10px 0px;
 	line-height: 2;
 }
 
@@ -187,10 +188,11 @@ display: block;
 
 .menu{
 	display: flex;
-	width: 500px;
+	width: 503px;
 	list-style: none;
 	justify-content: space-between;
 	font-family: AvenirNext, sans-serif;
+	margin: 23px -24px 0px 0px;
 }
 
 .menu-item{
@@ -204,11 +206,20 @@ display: block;
 animation: readm 2s;
 }
 
+.menu-link{
+	color: #ffffff;
+	text-decoration: none;	
+}
+
+.menu-link:hover{
+	animation: infinite explore 0.5s;
+}
+
 .title{
 	color: #ffffff;
 	font-size: 40px;
 	text-transform: uppercase;
-	margin: 600px 0 0 130px;
+	margin: 553px 0 0 127px;
 	font-family: AvenirNext;
 }
 
@@ -216,7 +227,7 @@ animation: readm 2s;
 	color: #ffffff;
 	font-size: 15px;
 	text-transform: uppercase;
-	margin: 5px 0 0 300px;
+	margin: 0px 0 0 291px;
 	font-family: OpenSans;
 	font-weight: 700;
 	letter-spacing: 0.2em;
@@ -226,17 +237,6 @@ animation: readm 2s;
 	background: #a2ca28;
 }
 
-.menu-link{
-	color: #ffffff;
-	text-decoration: none;
-	font-size: 14px;
-	font-family: ProximaNova;
-	padding: 20px 0;
-}
-
-.menu-link:hover{
-	animation: infinite explore 0.5s;
-}
 
 @keyframes explore{
 	0% {
