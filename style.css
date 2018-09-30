@@ -245,7 +245,14 @@ animation: readm 2s;
 	font-family: ProximaNova;
 }
 
-.menu-link:hover{
+.menu-link-2{
+	color: #ffffff;
+	text-decoration: none;	
+	font-size: 14px;
+	font-family: ProximaNova;
+}
+
+.menu-link-2:hover{
 	animation: infinite explore 0.5s;
 }
 
