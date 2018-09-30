@@ -62,46 +62,47 @@
 	font-size: 14px;
 	line-height: 23px;
 	font-family: ProximaNova;
-	padding: 4px 6px 4px 0px;
+	padding: 26px 6px 26px 0px;
 }
 
 .border{
-	padding: 38px 4px 0px;
+	padding: 38px 0px 0px;
 	color: #ffffff;
 	font-size: 24px;
 	font-family: OpenSans;
 }
 
 .cont-for-border{
-	height: 36px;
+	height: 58px;
 }
 
 /*белый квадрат*/
 .main-info{
-	width: 321px;
-	height: 354px;
+	width: 347px;
+	height: 394px;
 	background: #ffffff;
 	text-align: center;	
-	padding: 40px 45px 0px;
+	padding: 0px 45px;
 }
 
 .main-line{
 	display: flex;
 	justify-content: center;	
-	width: 1180px;
+	width: 1200px;
 	height: 394px;
-	margin: 0px 222px 0px;
+	margin: 0px auto;
 }
 
 .img1{
 position: relative;
 display: block;
+width: 853px;
 }
 
 .img1:before{
 	content: '';
 	background: rgba(0, 0, 0, 50%);
-	width: 794px;
+	width: 8px;
 	height: 394px;
 	position: absolute;
 	opacity: 0;
@@ -188,6 +189,7 @@ position: relative;
 	text-transform: uppercase;
 	font-family: Montserrat, sans-serif;
 	text-align: center;
+	padding: 55px 0px 0px;
 }
 
 .h2{
@@ -197,6 +199,7 @@ position: relative;
 	font-family: OpenSans, sans-serif;
 	font-weight: 100;
 	text-align: center;
+	padding: 8px 0px 20px;
 }
 
 .p{
@@ -204,7 +207,8 @@ position: relative;
 	font-size: 14px;
 	font-family: OpenSans;
 	font-weight: 400;
-	line-height: 2;
+	line-height: 1.9;
+	padding: 15px 0px 5px;
 }
 
 .background-image {
@@ -227,7 +231,7 @@ position: relative;
 	color: #ffffff;
 	font-size: 13px;
 	text-transform: uppercase;
-	font-family: MyriadPro-Regular;
+	font-family: ProximaNova;
 }
 
 .menu-item:hover{
@@ -237,6 +241,8 @@ animation: readm 2s;
 .menu-link{
 	color: #ffffff;
 	text-decoration: none;	
+	font-size: 14px;
+	font-family: ProximaNova;
 }
 
 .menu-link:hover{
@@ -255,7 +261,7 @@ animation: readm 2s;
 	color: #ffffff;
 	font-size: 15px;
 	text-transform: uppercase;
-	margin: 0px 0 0 291px;
+	margin: 8px 0 0 291px;
 	font-family: OpenSans;
 	font-weight: 700;
 	letter-spacing: 0.2em;
@@ -302,14 +308,15 @@ display: block;
 .foot-line{
 	display: flex;
 	justify-content: space-between;
-	width: 1000px;
-	padding: 80px 220px 30px 220px
+	width: 1080px;
+	padding: 70px 0 70px 120px;
+	margin: 0px auto;
 }
 
 .input{
 	border: 1px solid gray;
 	font-size: 14px;
-	padding: 10px 15px;
+	padding: 15px 30px;
 	color: #83969f;
 	font-family: ProximaNova;
 }
@@ -317,8 +324,8 @@ display: block;
 .input-name{
 	border: 1px solid gray;
 	font-size: 14px;
-	padding: 10px 15px;
-	width: 200px;
+	padding: 15px 30px;
+	width: 280px;
 	color: #83969f;
 	font-family: ProximaNova;
 }
@@ -326,7 +333,7 @@ display: block;
 .button{
 	background: #a2ca28;
 	font-size: 15px;
-	padding: 10px 23px;
+	padding: 16px 40px;
 	color: #ffffff;
 	font-family: ProximaNova;
 }
@@ -351,8 +358,8 @@ display: block;
 .social{
 	display: flex;
 	justify-content: space-between;
-	width: 220px;
 	list-style: none;
+	margin: -5px auto;
 }
 
 .social-y{
@@ -361,6 +368,8 @@ display: block;
     height: 50px;
     background: #ed3123;
     border-radius: 50px;
+    margin: 0 7px;
+
 }
 
 .social-f{
@@ -369,6 +378,7 @@ display: block;
     height: 50px;
     background: #2e3192;
     border-radius: 50px;
+    margin: 0 7px;
 }
 
 .social-t{
@@ -377,6 +387,7 @@ display: block;
     height: 50px;
     background: #00aeef;
     border-radius: 50px;
+    margin: 0 7px;
 }
 
 .social-i{                  
@@ -385,6 +396,7 @@ display: block;
     height: 50px;
     background: #171a8f;
     border-radius: 50px;
+    margin: 0 7px;
 }
 
 .social-inside{
