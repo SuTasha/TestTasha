@@ -308,9 +308,10 @@ display: block;
 .foot-line{
 	display: flex;
 	justify-content: space-between;
-	width: 1080px;
-	padding: 70px 0 70px 120px;
+	width: 1180px;
+	padding: 70px 0 40px 100px;
 	margin: 0px auto;
+	box-sizing: border-box;
 }
 
 .input{
@@ -357,50 +358,84 @@ display: block;
 /*ставлю в ряд соцсети c промежутком*/
 .social{
 	display: flex;
+	content: '';
+	width: 240px;
 	justify-content: space-between;
 	list-style: none;
-	margin: -5px auto;
+	margin: -2px auto;
+}
+
+.icon-soc{
+	width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.icon-soc:before{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	text-align: center;
 }
 
 .social-y{
-	position: relative;
-    width: 50px;
-    height: 50px;
     background: #ed3123;
-    border-radius: 50px;
-    margin: 0 7px;
+}
 
+.social-y:before{
+	background-image: url('images/yt.png'); 
+	width: 25px;
+    height: 20px;
+    background-size: 25px 20px;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -13px;
 }
 
 .social-f{
-	position: relative;
-    width: 50px;
-    height: 50px;
     background: #2e3192;
-    border-radius: 50px;
-    margin: 0 7px;
+}
+
+.social-f:before{
+	background-image: url("https://www.topcardz.com/images/facebook.png"); 
+	width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
 }
 
 .social-t{
-	position: relative;
-    width: 50px;
-    height: 50px;
     background: #00aeef;
-    border-radius: 50px;
-    margin: 0 7px;
+}
+
+.social-t:before{
+	background-image: url('images/tw.png'); 
+	width: 25px;
+    height: 20px;
+    background-size: 25px 20px;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -13px;
 }
 
 .social-i{                  
-	position: relative;
-    width: 50px;
-    height: 50px;
     background: #171a8f;
-    border-radius: 50px;
-    margin: 0 7px;
 }
 
-.social-inside{
-	position: absolute;
-	top: 15px;
-	left: 18px;
+.social-i:before{
+	background-image: url('images/ln.png'); 
+	width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    top: 50%;
+    left: 50%;
+    margin-top: -11px;
+    margin-left: -9px;
 }
