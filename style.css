@@ -316,8 +316,8 @@ display: block;
 	display: flex;
 	justify-content: space-between;
 	width: 1180px;
-	padding: 70px 0 40px 50px;
-	margin: 0px auto;
+	padding: 62px 12px 40px 50px;
+	margin: 8px 0 0 0;
 	box-sizing: border-box;
 }
 
