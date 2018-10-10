@@ -362,6 +362,16 @@ display: block;
 	}
 }
 
+.advent{
+	display: none;
+	background: #a2ca28;
+	font-size: 15px;
+	padding: 16px 233px;
+	color: #ffffff;
+	font-family: ProximaNova;
+}
+
+
 /*ставлю в ряд соцсети c промежутком*/
 .social{
 	display: flex;

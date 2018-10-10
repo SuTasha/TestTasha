@@ -25,8 +25,13 @@ function chekEvent(event){
     }
 
     if (valueMail, valueName != ''){
-    	alert ("Спасибо, Ваше сообщение отправлено!");
-    }
+    	name.style.display = 'none';
+    	mail.style.display = 'none';
+    	button.style.display = 'none';
+    	var advent = document.getElementById("ad");
+    	advent.style.display = "block";
+	}
 }
+
 signButton.addEventListener('click', chekEvent); 
 
